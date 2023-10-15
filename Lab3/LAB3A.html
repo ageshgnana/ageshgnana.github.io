@@ -37,14 +37,28 @@
         font-weight: bold;
       }
 
+      .link2
+      a:link,
+      a:visited {
+        color:red;
+      }
+
+      .link
       a:link,
       a:visited {
         color:green;
       }
 
       a:hover {
+        color: green;
         text-decoration: none;
       }
+    
+      .Border{
+      border: 5px solid purple;
+      background-color: #eeeeee;
+      }
+
     </style>
   </head>
 
@@ -65,16 +79,21 @@
     </p>
 
     <h2>Contact information</h2>
+    <div class="Border">
       <ul>
         <li>
+        <div class="link">
           Email:
           <a href="mailto:jane@example.com" >jane@example.com</a>
         </li>
+     
         <li>
+          <div class="link2">
           Web:
           <a href="http://example.com">http://example.com</a>
         </li>
         <li>Tel: 123 45678</li>
       </ul>
+    </div>
   </body>
 </html>
