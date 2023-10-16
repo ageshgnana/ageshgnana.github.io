@@ -1,4 +1,10 @@
-/* General setup */
+/*
+   Lab3A.css
+    Author: Agesh Gnanaseharam
+    Date: October 12 2023
+    Description: This page will be my css file
+    Examples are from: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Typesetting_a_homepage
+ */
 
 * {
   box-sizing: border-box;
@@ -42,4 +48,21 @@ header, footer {
   border-bottom: 5px solid #a66;
 }
 
-/* WRITE YOUR CODE BELOW HERE */
+.Font{
+font-size: 10px;
+line-height: normal;
+letter-spacing: 1px;
+word-spacing: 1px;
+}
+
+.lineheight{
+line-height: 1.6;
+}
+
+.h1{
+  text-align: center;
+}
+
+.spacing{
+  letter-spacing: 2.5px;
+}
