@@ -56,7 +56,7 @@ word-spacing: 1px;
 }
 
 .lineheight{
-line-height: 1.6;
+line-height: 2;
 }
 
 .h1{
@@ -64,5 +64,56 @@ line-height: 1.6;
 }
 
 .spacing{
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
 }
+
+.bodyspacing{
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.indent{
+  text-indent: 20px;
+}
+
+.link
+      a:link{
+        color:solid #a66;
+        outline: none;
+      }
+.link1
+  a:visited{
+    color: blue;
+    outline: none;
+  }
+.link2
+a:focus{
+  color: aqua;
+  text-decoration: none;
+  outline: none;
+}
+
+.link4
+a:active{
+  color: solid #a66;
+  outline: none;
+}
+
+.img{
+  background-image: url("external-link-52.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bulletpoint{
+  list-style-type: upper-roman;
+}
+
+.NavMenu{
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+  font-size: larger;
+  border-color: #a66;
+} 
