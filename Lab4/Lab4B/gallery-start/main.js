@@ -1,3 +1,9 @@
+/*Lab4B.main.js
+    Author: Agesh Gnanaseharam
+    Date: 2023-12-09
+    Description: This is my main js page where i will declaring all images
+    Examples are from :https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Image_gallery*/
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
