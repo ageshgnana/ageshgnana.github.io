@@ -1,3 +1,10 @@
+/*Lab4C.main.js
+    Author: Agesh Gnanaseharam
+    Date: 2023-12-09
+    Description: This is my main js page.
+    Examples are from :https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice*/
+
+
 // setup canvas
 
 const canvas = document.querySelector('canvas');
