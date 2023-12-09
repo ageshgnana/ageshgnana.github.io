@@ -26,12 +26,20 @@ body {
   nav {
     background-color: #000;
     padding: .5em;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    offset: top 0;
   }
   
   nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    row-gap: 50px;
+    flex-direction: row;
+    justify-content: space-between;
   }
   
   nav a {
@@ -39,11 +47,12 @@ body {
     text-decoration: none;
     padding: .5em 1em;
   }
-  
+
   .photos {
     list-style: none;
     margin: 0;
     padding: 0;
+    float:left;
   }
 
   .feature {
