@@ -21,11 +21,22 @@ const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewal
 randomize.addEventListener('click', result);
 
 function result() {
+  let newStory = storyText;
+
+
+  const xItem = randomValueFromArray(insertX);
+  const  yItem = randomValueFromArray(insertY);
+  const  zItem = randomValueFromArrayand(insertZ);
+
+  newStory = newStory.replace(':insertx:',xItem).replace(':insertx:',xItem).replace(':inserty:',yItem).replace(':insertz:',zItem);
 
   if(customName.value !== '') {
     const name = customName.value;
+    newStory = newStory.replace('Bob',name)
 
   }
+
+  
 
   if(document.getElementById("uk").checked) {
     const weight = Math.round(300);
