@@ -1,4 +1,10 @@
-// set up canvas
+/*Lab4D.js
+Author: Agesh Gnanaseharam
+Date: 2023-12-04
+Description: 
+Examples are from:https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Adding_bouncing_balls_features
+
+set up canvas*/
 
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
@@ -11,7 +17,7 @@ const height = canvas.height = window.innerHeight;
 function random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-
+ 
 // function to generate random RGB color value
 
 function randomRGB() {
@@ -72,6 +78,7 @@ class Ball {
    }
 
 }
+
 
 const balls = [];
 
