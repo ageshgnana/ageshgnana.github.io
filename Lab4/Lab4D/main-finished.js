@@ -3,6 +3,8 @@ Author: Agesh Gnanaseharam
 Date: 2023-12-04
 Description: 
 Examples are from:https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Adding_bouncing_balls_features
+Also got help from this website:https://discourse.mozilla.org/t/adding-features-to-our-bouncing-balls-demo-assessment/24689
+
 
 set up canvas*/
 
